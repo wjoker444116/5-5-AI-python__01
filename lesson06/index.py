@@ -3,7 +3,7 @@ from tools import Student
 
 def main():
     print(tools.PI)
-    s1:Student = tools.get_student(name="徐國堂",chinese=89,english=92,math=91)
+    s1:Student = tools.get_student(name="Warter",chinese=89,english=92,math=91)
     print(f'name={s1.name}')
     print(f'chinese={s1.chinese}')
     print(f'english={s1.english}')
